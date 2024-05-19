@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        td.m{
+            width: 250px;
+            font-size: 20px;
+            height: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        td.h{
+            width: 230px;
+            font-size: 17px;
+            height: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: gray;
+        }
+    </style>
+   
+</head>
+
+<body>
+            <div id="menu">
+                <div id="left">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border: 1px solid rgb(35, 34, 42); width: 170px;">
+                                        <a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbspTRANG CHỦ</a>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 170px;">
+                                        <a href="#"><span class="glyphicon glyphicon-list"></span>&nbsp&nbspTHỂ LOẠI</a>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Tiên Hiệp</a></li>
+                                      <li><a class="dropdown-item" href="#">Ngôn Tình</a></li>
+                                      <li><a class="dropdown-item" href="#">Trinh Thám</a></li>
+                                      <li><a class="dropdown-item" href="#">Thám Hiểm</a></li>
+                                      <li><a class="dropdown-item" href="#">Tiểu Thuyết</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 170px;">
+                                        <a href="#"><span class="glyphicon glyphicon-list"></span>&nbsp&nbspDANH SÁCH</a>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Mới cập Nhật</a></li>
+                                      <li><a class="dropdown-item" href="#">Tiểu Thuyết Hay</a></li>
+                                      <li><a class="dropdown-item" href="#">Manga Hay</a></li>
+                                      <li><a class="dropdown-item" href="#">Tiên Hiệp Hay</a></li>
+                                      <li><a class="dropdown-item" href="#">Truyện Full Hot</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 170px;">
+                                        <a href="#"><span class="glyphicon glyphicon-phone"></span>&nbsp&nbspLIÊN HỆ</a>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>   
+                </div>
+
+                <div id="right">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="text" placeholder="Tìm kiếm truyện..." style="height: 40px; width: 250px;background: rgb(25, 24, 24); color: white;font-size: 15px; border: 1px solid rgb(25, 24, 24);">
+                                </td>
+                                <td style="width: 51px;">
+                                    <button style="width: 42px;height: 39px; background-color: rgb(25, 24, 24); color: #FFDF00;border: 1px solid rgb(25, 24, 24);"><span class="glyphicon glyphicon-search"></span></button>
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; border-radius: 20px;">Đăng Nhập</button>
+                                        <div class="modal" id="myModal">
+                                         <div class="modal-dialog">
+                                            <div class="modal-content">
+                                             <!-- Modal footer -->
+                                             <div class="modal-footer">
+                                                 <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 40px;">X</button>
+                                              </div>
+                                               <!-- Modal Header -->
+                                               <div class="modal-header">
+                                                  <b style="color: black;">LOGIN</b>
+                                               </div>
+                                               <!-- Modal body -->
+                                               <div class="modal-body">
+                                                 <form>
+                                                     <!-- Vertical -->
+                                                     <div class="form-group">
+                                                        <label for="myEmail" style="color: black; font-size: 15px;">Email</label>
+                                                        <input type="email" id = "myEmail" class="form-control" placeholder="Email"><br>
+                                                        <label for="myPassword" style="color: black; font-size: 15px;">Password</label>
+                                                        <input type="password" id="myPassword" class="form-control" placeholder="Password"><br>
+                                                        <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button><br>
+                                                        <label for="" style="color: black; font-size: 10px; margin-left: 180px;">Don't have an account?</label><br>
+                                                        <a href="#" class="link" style="color: dodgerblue; width: 50px; margin-left: 205px; text-decoration: none;">Signup</a><br>
+                                                        <span class="line left"></span ><span class="center" style="color: black; font-size: 12px;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Or &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span><span class="line right"></span> <br>
+                                                        <p></p>
+                                                        <a href="#" class="btn face" style="background-color: #4267b2; color: #fff; background-image: url(icons8-facebook.svg); background-repeat: no-repeat; background-size: 30px; border-radius: 20px; width: 250px; margin-left: 100px;">Login with Facebook</a>
+                                                        <br>
+                                                        <p></p>
+                                                        <a href="#" class="btn google" style="color: black; border-color: aqua; background-image: url(icons8-google.svg); background-repeat: no-repeat;background-size: 30px; border-radius: 20px; width: 250px; margin-left: 100px;">Login with Google</a> 
+                                                        
+                                                     </div>
+                                                  </form>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </div>
+                                     </div>
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; border-radius: 20px;">Đăng Ký</button>
+                                        <div class="modal" id="myModal1">
+                                         <div class="modal-dialog">
+                                            <div class="modal-content">
+                                             <!-- Modal footer -->
+                                             <div class="modal-footer">
+                                                 <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 40px;">X</button>
+                                              </div>
+                                               <!-- Modal Header -->
+                                               <div class="modal-header">
+                                                  <b style="color: black;">SIGN UP</b>
+                                               </div>
+                                               <!-- Modal body -->
+                                               <div class="modal-body">
+                                                 <form>
+                                                     <!-- Vertical -->
+                                                     <div class="form-group">
+                                                        <label for="myEmail" style="color: black; font-size: 15px;">Email</label>
+                                                        <input type="email" id = "myEmail" class="form-control" placeholder="Email"><br>
+                                                        <label for="myPassword" style="color: black; font-size: 15px;">Password</label>
+                                                        <input type="password" id="myPassword" class="form-control" placeholder="Password"><br>
+                                                        <label for="myPassword" style="color: black; font-size: 15px;">Re-enter password</label>
+                                                        <input type="password" id="myPassword" class="form-control" placeholder="Re-enter password"><br>
+                                                        <button type="submit" class="btn btn-primary" style="width: 100%;">Sign up</button><br>
+                                                        <span class="line left"></span ><span class="center" style="color: black; font-size: 12px;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Or &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span><span class="line right"></span> <br>
+                                                        <p></p>
+                                                        <table style="margin-left: 60px;">
+                                                         <tr>
+                                                             <td style="width: 200px; "><a href="#" class="btn face" style="background-color: #4267b2; color: #fff; background-image: url(icons8-facebook.svg); background-repeat: no-repeat; background-size: 30px; width: 150px; border-radius: 20px;">Facebook</a></td>
+                                                             <td style="width: 200px;"><a href="#" class="btn google" style="color: black; border-color: aqua; background-image: url(icons8-google.svg); background-repeat: no-repeat;background-size: 30px; width: 150px; border-radius: 20px;  margin-right: 75px;">Google</a> </td>
+                                                         </tr>
+                                                        </table>
+                                                     </div>
+                                                  </form>
+                                               </div>
+                                            </div>
+                                         </div>
+                                     </div>
+                                </td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-light" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; color:#FFDF00; border-radius: 20px;"><span class="glyphicon glyphicon-crown"></span>Premium</button>
+                                    </div>
+                                </td>
+                            </tr>  
+                        </table> 
+                    </div>
+                </div>     
+            </div>
+
+    <div id="baner">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+    
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="anh6.jpg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="anh6.jpg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="anh6.jpg" alt="New York" class="d-block w-100">
+            </div>
+            </div>
+    
+            <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+        </div>
+    </div>
+
+    <div id="main">
+        <div style="background-color: black; height: 20px;"></div>
+
+        <div style="height: 400px;">
+        <div style="font-size: 30px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: 23px 0px 20px 50px; color: white;">TÁC PHẨM KINH ĐIỂN&nbsp<span class="glyphicon glyphicon-fire"></span></div>
+        <div id="anh">
+            
+            <div class="container">
+                <div class="arrow" id="left-arrow">&#9664;&nbsp&nbsp&nbsp</div>
+                <div class="scroll-container" id="scroll-container">
+                    <img src="anh0.png" alt="Image 1">
+                    <img src="anh1.png" alt="Image 2">
+                    <img src="anh2.png" alt="Image 3">
+                    <img src="anh3.png" alt="Image 4">
+                    <img src="anh11.png" alt="Image 5">
+                    <img src="anh14.png" alt="Image 6">
+                    <img src="anh15.png" alt="Image 7">
+                    <img src="anh16.png" alt="Image 8">
+                    <img src="anh17.png" alt="Image 9">
+                    <img src="anh18.png" alt="Image 10">
+                </div>
+                <div class="arrow" id="right-arrow">&nbsp&nbsp&nbsp&#9654;</div>
+            </div>
+        </div>    
+        </div>
+
+        <div style="height: 400px;">
+        <div style="font-size: 30px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: 30px 0px 20px 50px; color: white;">MANGA HAY&nbsp<span class="glyphicon glyphicon-fire"></span></div>
+        <div id="anh">
+
+            <div class="container">
+                <div class="arrow" id="left-arrow1">&#9664;&nbsp&nbsp&nbsp</div>
+                    <div class="scroll-container" id="scroll-container1">
+                        <img src="anh7.png" alt="Image 1">
+                        <img src="anh8.png" alt="Image 2">
+                        <img src="anh9.png" alt="Image 3">
+                        <img src="anh10.png" alt="Image 4">
+                        <img src="anh12.png" alt="Image 5">
+                        <img src="anh13.png" alt="Image 6">
+                        <img src="anh19.png" alt="Image 7">
+                        <img src="anh20.png" alt="Image 8">
+                        <img src="anh21.png" alt="Image 9">
+                        <img src="anh22.png" alt="Image 10">
+                    </div>
+                <div class="arrow" id="right-arrow1">&nbsp&nbsp&nbsp&#9654;</div>
+            </div>
+        </div>   
+        </div>
+
+        <div style="height: 400px;">
+            <div style="font-size: 30px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: 30px 0px 20px 50px; color: white;">ĐỀ XUẤT CHO BẠN&nbsp<span class="glyphicon glyphicon-fire"></span></div>
+            <div id="anh">
+    
+                <div class="container">
+                    <div class="arrow" id="left-arrow2">&#9664;&nbsp&nbsp&nbsp</div>
+                        <div class="scroll-container" id="scroll-container2">
+                            <img src="anh7.png" alt="Image 1">
+                            <img src="anh8.png" alt="Image 2">
+                            <img src="anh9.png" alt="Image 3">
+                            <img src="anh10.png" alt="Image 4">
+                            <img src="anh12.png" alt="Image 5">
+                            <img src="anh13.png" alt="Image 6">
+                            <img src="anh19.png" alt="Image 7">
+                            <img src="anh20.png" alt="Image 8">
+                            <img src="anh21.png" alt="Image 9">
+                            <img src="anh22.png" alt="Image 10">
+                        </div>
+                    <div class="arrow" id="right-arrow2">&nbsp&nbsp&nbsp&#9654;</div>
+                </div>
+            </div>   
+            </div>
+    </div>
+
+    <div id="footer">
+        <div id="left">
+            <div style="font-family: Broadway; font-size: 50px; color: rgb(25, 143, 70);margin-bottom: 0px;">B-BOOK</div>
+            <div style="font-family: Broadway;font-size: 20px;color: rgb(25, 143, 70);">ĐỌC TRUYỆN THEO CÁCH CỦA BẠN!</div>
+            <div>
+                <div style="margin-top: 10px;font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Liên hệ với: </div>
+                <div style="margin-top: 8px;font-size: 17px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <span class="glyphicon glyphicon-phone">0375831246</span> &nbsp&nbsp&nbsp&nbsp&nbsp <span class="glyphicon glyphicon-fire">baodn.23itb@vku.udn.vn</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="right">
+            <table>
+                <tr>
+                    <td class="m">Về chúng tôi</td>
+                    <td class="h"></td>
+                    <td class="m">Thông tin hữu ích</td>
+                    <td class="m">Tin tức</td>
+                </tr>
+                <tr>
+                    <td class="h">Giới thiệu</td>
+                    <td class="h">Cơ hội đầu tư</td>
+                    <td class="h">Sử dụng dịch vụ</td>
+                    <td class="h">Tin dịch vụ</td>
+                </tr>
+                <tr>
+                    <td class="h">Cơ cấu tổ chức</td>
+                    <td class="h">Tuyển dụng</td>
+                    <td class="h">Quyền lợi</td>
+                    <td class="h">Review sách hay</td>
+                </tr>
+                <tr>
+                    <td class="h">Lĩnh vực hoạt động</td>
+                    <td class="h">Liên hệ</td>
+                    <td class="h">Quy định riêng tư</td>
+                    <td class="h">Lịch phát hành</td>
+                </tr>
+                <tr>
+                    <td class="h"></td>
+                    <td class="h"></td>
+                    <td class="h">Câu hỏi thường gặp</td>
+                    <td class="h"></td>
+                </tr>
+            </table>    
+        </div>     
+    </div> 
+    <div id="duoi">
+        <div style="margin-left: 70px;">
+            <font style="font-family: Broadway; color:rgb(25, 143, 70) ;font-size: 25px;">B-BOOK</font> - Một trong những nền tảng đọc truyện trực tuyến tốt nhất Việt Nam! <br>
+            Trang web được phát triển bởi nhóm BHT-Team bao gồm 4 thành viên là Bảo, Hải, Tùng và Toàn.<br>
+            Với mong muốn phát triển, trang web sẽ không ngừng đổi mới, cập nhật để mang đến cho người dùng trải nghiệm tốt nhất!<br>
+            Có thể liên hệ trực tiếp tại Phòng 521 dãy 2 KTX Trường Đại học Công nghệ thông tin và Truyền thông Việt Hàn. 
+        </div>    
+    </div>   
+    <div id="duoi2">
+        Điều khoản &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Chính sách bảo mật &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Cookies &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Copyright &#169; 2024. All rights reserved
+    </div> 
+    <script>
+        const scrollContainer = document.getElementById('scroll-container');
+        const leftArrow = document.getElementById('left-arrow');
+        const rightArrow = document.getElementById('right-arrow');
+
+        leftArrow.addEventListener('click', () => {
+            scrollContainer.scrollBy({
+                left: -400, // Adjust this value to scroll by more or less
+                behavior: 'smooth'
+            });
+        });
+
+        rightArrow.addEventListener('click', () => {
+            scrollContainer.scrollBy({
+                left: 400, // Adjust this value to scroll by more or less
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+<script>
+    const scrollContainer1 = document.getElementById('scroll-container1');
+    const leftArrow1 = document.getElementById('left-arrow1');
+    const rightArrow1 = document.getElementById('right-arrow1');
+
+    leftArrow1.addEventListener('click', () => {
+        scrollContainer1.scrollBy({
+            left: -400, // Adjust this value to scroll by more or less
+            behavior: 'smooth'
+        });
+    });
+
+    rightArrow1.addEventListener('click', () => {
+        scrollContainer1.scrollBy({
+            left: 400, // Adjust this value to scroll by more or less
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>
