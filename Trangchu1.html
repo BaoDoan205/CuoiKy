@@ -29,158 +29,147 @@
 </head>
 
 <body>
-            <div id="menu">
-                <div id="left">
-                    <table>
-                        <tr>
-                            <td>
-                                <div class="dropdown">
-                                    <button type="button" class="btn" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border: 1px solid rgb(35, 34, 42); width: 170px;">
-                                        <a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbspTRANG CHỦ</a>
-                                    </button>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dropdown">
-                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 170px;">
-                                        <a href="#"><span class="glyphicon glyphicon-list"></span>&nbsp&nbspTHỂ LOẠI</a>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Tiên Hiệp</a></li>
-                                      <li><a class="dropdown-item" href="#">Ngôn Tình</a></li>
-                                      <li><a class="dropdown-item" href="#">Trinh Thám</a></li>
-                                      <li><a class="dropdown-item" href="#">Thám Hiểm</a></li>
-                                      <li><a class="dropdown-item" href="#">Tiểu Thuyết</a></li>
-                                    </ul>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dropdown">
-                                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 170px;">
-                                        <a href="#"><span class="glyphicon glyphicon-list"></span>&nbsp&nbspDANH SÁCH</a>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Mới cập Nhật</a></li>
-                                      <li><a class="dropdown-item" href="#">Tiểu Thuyết Hay</a></li>
-                                      <li><a class="dropdown-item" href="#">Manga Hay</a></li>
-                                      <li><a class="dropdown-item" href="#">Tiên Hiệp Hay</a></li>
-                                      <li><a class="dropdown-item" href="#">Truyện Full Hot</a></li>
-                                    </ul>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="dropdown">
-                                    <button type="button" class="btn" data-bs-toggle="dropdown" style="background-color: rgb(35, 34, 42); height: 45px; width: 100px; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; width: 170px;">
-                                        <a href="#"><span class="glyphicon glyphicon-phone"></span>&nbsp&nbspLIÊN HỆ</a>
-                                    </button>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>   
+    <div id="wrapper">   
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(35, 34, 42);height: 70px; margin-bottom: 0px; padding-top: 13px;">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><font style="font-family: Broadway; color: rgb(27, 154, 76);font-size: 35px;">B-BOOK</font></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown" style="width: 150px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 16px;">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+                                            <span class="glyphicon glyphicon-list"></span>&nbsp&nbspTHỂ LOẠI
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">Tiên Hiệp</a></li>
+                                            <li><a class="dropdown-item" href="#">Ngôn Tình</a></li>
+                                            <li><a class="dropdown-item" href="#">Trinh Thám</a></li>
+                                            <li><a class="dropdown-item" href="#">Thám Hiểm</a></li>
+                                            <li><a class="dropdown-item" href="#">Tiểu Thuyết</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown" style="width: 150px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 16px;">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+                                            <span class="glyphicon glyphicon-list"></span>&nbsp&nbspDANH SÁCH
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                            <li><a class="dropdown-item" href="#">Mới cập Nhật</a></li>
+                                            <li><a class="dropdown-item" href="#">Tiểu Thuyết Hay</a></li>
+                                            <li><a class="dropdown-item" href="#">Manga Hay</a></li>
+                                            <li><a class="dropdown-item" href="#">Tiên Hiệp Hay</a></li>
+                                            <li><a class="dropdown-item" href="#">Truyện Full Hot</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"  style="width: 150px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 16px;">
+                                        <a class="nav-link" href="#" style="text-decoration: none;"><span class="glyphicon glyphicon-phone"></span>&nbsp&nbspLIÊN HỆ</a>
+                                    </li>
+                                    <li class="nav-item" style="width: 330px;">
+                                        <form class="d-flex ms-auto">
+                                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm truyện..." aria-label="Search" style="width: 250px;height: 40px;background-color: rgb(25, 24, 24);color: white;">
+                                            <button class="btn btn-outline-warning" type="submit" style="background-color: rgb(25, 24, 24);"><span class="glyphicon glyphicon-search"></span></button>
+                                        </form>
+                                    </li>
+                                    <li class="nav-item" style="width: 150px;">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; border-radius: 20px;">Đăng Nhập</button>
+                                            <div class="modal" id="myModal">
+                                             <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                 <!-- Modal footer -->
+                                                 <div class="modal-footer">
+                                                     <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 40px;">X</button>
+                                                  </div>
+                                                   <!-- Modal Header -->
+                                                   <div class="modal-header">
+                                                      <b style="color: black;">LOGIN</b>
+                                                   </div>
+                                                   <!-- Modal body -->
+                                                   <div class="modal-body">
+                                                     <form>
+                                                         <!-- Vertical -->
+                                                         <div class="form-group">
+                                                            <label for="myEmail" style="color: black; font-size: 15px;">Email</label>
+                                                            <input type="email" id = "myEmail" class="form-control" placeholder="Email"><br>
+                                                            <label for="myPassword" style="color: black; font-size: 15px;">Password</label>
+                                                            <input type="password" id="myPassword" class="form-control" placeholder="Password"><br>
+                                                            <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button><br>
+                                                            <label for="" style="color: black; font-size: 10px; margin-left: 180px;">Don't have an account?</label><br>
+                                                            <a href="#" class="link" style="color: dodgerblue; width: 50px; margin-left: 205px; text-decoration: none;">Signup</a><br>
+                                                            <span class="line left"></span ><span class="center" style="color: black; font-size: 12px;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Or &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span><span class="line right"></span> <br>
+                                                            <p></p>
+                                                            <a href="#" class="btn face" style="background-color: #4267b2; color: #fff; background-image: url(icons8-facebook.svg); background-repeat: no-repeat; background-size: 30px; border-radius: 20px; width: 250px; margin-left: 100px;">Login with Facebook</a>
+                                                            <br>
+                                                            <p></p>
+                                                            <a href="#" class="btn google" style="color: black; border-color: aqua; background-image: url(icons8-google.svg); background-repeat: no-repeat;background-size: 30px; border-radius: 20px; width: 250px; margin-left: 100px;">Login with Google</a> 
+                                                            
+                                                         </div>
+                                                      </form>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                         </div>
+                                    </li>
+                                    <li class="nav-item" style="width: 150px;">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; border-radius: 20px;">Đăng Ký</button>
+                                            <div class="modal" id="myModal1">
+                                             <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                 <!-- Modal footer -->
+                                                 <div class="modal-footer">
+                                                     <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 40px;">X</button>
+                                                  </div>
+                                                   <!-- Modal Header -->
+                                                   <div class="modal-header">
+                                                      <b style="color: black;">SIGN UP</b>
+                                                   </div>
+                                                   <!-- Modal body -->
+                                                   <div class="modal-body">
+                                                     <form>
+                                                         <!-- Vertical -->
+                                                         <div class="form-group">
+                                                            <label for="myEmail" style="color: black; font-size: 15px;">Email</label>
+                                                            <input type="email" id = "myEmail" class="form-control" placeholder="Email"><br>
+                                                            <label for="myPassword" style="color: black; font-size: 15px;">Password</label>
+                                                            <input type="password" id="myPassword" class="form-control" placeholder="Password"><br>
+                                                            <label for="myPassword" style="color: black; font-size: 15px;">Re-enter password</label>
+                                                            <input type="password" id="myPassword" class="form-control" placeholder="Re-enter password"><br>
+                                                            <button type="submit" class="btn btn-primary" style="width: 100%;">Sign up</button><br>
+                                                            <span class="line left"></span ><span class="center" style="color: black; font-size: 12px;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Or &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span><span class="line right"></span> <br>
+                                                            <p></p>
+                                                            <table style="margin-left: 60px;">
+                                                             <tr>
+                                                                 <td style="width: 200px; "><a href="#" class="btn face" style="background-color: #4267b2; color: #fff; background-image: url(icons8-facebook.svg); background-repeat: no-repeat; background-size: 30px; width: 150px; border-radius: 20px;">Facebook</a></td>
+                                                                 <td style="width: 200px;"><a href="#" class="btn google" style="color: black; border-color: aqua; background-image: url(icons8-google.svg); background-repeat: no-repeat;background-size: 30px; width: 150px; border-radius: 20px;  margin-right: 75px;">Google</a> </td>
+                                                             </tr>
+                                                            </table>
+                                                         </div>
+                                                      </form>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                         </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-light" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; color:#FFDF00; border-radius: 20px;"><span class="glyphicon glyphicon-crown"></span>Premium</button>
+                                        </div>
+    
+                                    </li>
+                                </ul>
+                                
+                                
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-
-                <div id="right">
-                        <table>
-                            <tr>
-                                <td>
-                                    <input type="text" placeholder="Tìm kiếm truyện..." style="height: 40px; width: 250px;background: rgb(25, 24, 24); color: white;font-size: 15px; border: 1px solid rgb(25, 24, 24);">
-                                </td>
-                                <td style="width: 51px;">
-                                    <button style="width: 42px;height: 39px; background-color: rgb(25, 24, 24); color: #FFDF00;border: 1px solid rgb(25, 24, 24);"><span class="glyphicon glyphicon-search"></span></button>
-                                </td>
-                                <td>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; border-radius: 20px;">Đăng Nhập</button>
-                                        <div class="modal" id="myModal">
-                                         <div class="modal-dialog">
-                                            <div class="modal-content">
-                                             <!-- Modal footer -->
-                                             <div class="modal-footer">
-                                                 <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 40px;">X</button>
-                                              </div>
-                                               <!-- Modal Header -->
-                                               <div class="modal-header">
-                                                  <b style="color: black;">LOGIN</b>
-                                               </div>
-                                               <!-- Modal body -->
-                                               <div class="modal-body">
-                                                 <form>
-                                                     <!-- Vertical -->
-                                                     <div class="form-group">
-                                                        <label for="myEmail" style="color: black; font-size: 15px;">Email</label>
-                                                        <input type="email" id = "myEmail" class="form-control" placeholder="Email"><br>
-                                                        <label for="myPassword" style="color: black; font-size: 15px;">Password</label>
-                                                        <input type="password" id="myPassword" class="form-control" placeholder="Password"><br>
-                                                        <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button><br>
-                                                        <label for="" style="color: black; font-size: 10px; margin-left: 180px;">Don't have an account?</label><br>
-                                                        <a href="#" class="link" style="color: dodgerblue; width: 50px; margin-left: 205px; text-decoration: none;">Signup</a><br>
-                                                        <span class="line left"></span ><span class="center" style="color: black; font-size: 12px;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Or &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span><span class="line right"></span> <br>
-                                                        <p></p>
-                                                        <a href="#" class="btn face" style="background-color: #4267b2; color: #fff; background-image: url(icons8-facebook.svg); background-repeat: no-repeat; background-size: 30px; border-radius: 20px; width: 250px; margin-left: 100px;">Login with Facebook</a>
-                                                        <br>
-                                                        <p></p>
-                                                        <a href="#" class="btn google" style="color: black; border-color: aqua; background-image: url(icons8-google.svg); background-repeat: no-repeat;background-size: 30px; border-radius: 20px; width: 250px; margin-left: 100px;">Login with Google</a> 
-                                                        
-                                                     </div>
-                                                  </form>
-                                               </div>
-                                            </div>
-                                         </div>
-                                      </div>
-                                     </div>
-                                </td>
-                                <td>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal1" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; border-radius: 20px;">Đăng Ký</button>
-                                        <div class="modal" id="myModal1">
-                                         <div class="modal-dialog">
-                                            <div class="modal-content">
-                                             <!-- Modal footer -->
-                                             <div class="modal-footer">
-                                                 <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 40px;">X</button>
-                                              </div>
-                                               <!-- Modal Header -->
-                                               <div class="modal-header">
-                                                  <b style="color: black;">SIGN UP</b>
-                                               </div>
-                                               <!-- Modal body -->
-                                               <div class="modal-body">
-                                                 <form>
-                                                     <!-- Vertical -->
-                                                     <div class="form-group">
-                                                        <label for="myEmail" style="color: black; font-size: 15px;">Email</label>
-                                                        <input type="email" id = "myEmail" class="form-control" placeholder="Email"><br>
-                                                        <label for="myPassword" style="color: black; font-size: 15px;">Password</label>
-                                                        <input type="password" id="myPassword" class="form-control" placeholder="Password"><br>
-                                                        <label for="myPassword" style="color: black; font-size: 15px;">Re-enter password</label>
-                                                        <input type="password" id="myPassword" class="form-control" placeholder="Re-enter password"><br>
-                                                        <button type="submit" class="btn btn-primary" style="width: 100%;">Sign up</button><br>
-                                                        <span class="line left"></span ><span class="center" style="color: black; font-size: 12px;">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; Or &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</span><span class="line right"></span> <br>
-                                                        <p></p>
-                                                        <table style="margin-left: 60px;">
-                                                         <tr>
-                                                             <td style="width: 200px; "><a href="#" class="btn face" style="background-color: #4267b2; color: #fff; background-image: url(icons8-facebook.svg); background-repeat: no-repeat; background-size: 30px; width: 150px; border-radius: 20px;">Facebook</a></td>
-                                                             <td style="width: 200px;"><a href="#" class="btn google" style="color: black; border-color: aqua; background-image: url(icons8-google.svg); background-repeat: no-repeat;background-size: 30px; width: 150px; border-radius: 20px;  margin-right: 75px;">Google</a> </td>
-                                                         </tr>
-                                                        </table>
-                                                     </div>
-                                                  </form>
-                                               </div>
-                                            </div>
-                                         </div>
-                                     </div>
-                                </td>
-                                <td>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-light" style="width: 130px; height: 40px; font-family: Cambria; font-size: 18px; color:#FFDF00; border-radius: 20px;"><span class="glyphicon glyphicon-crown"></span>Premium</button>
-                                    </div>
-                                </td>
-                            </tr>  
-                        </table> 
-                    </div>
-                </div>     
             </div>
-
+            
     <div id="baner">
         <!-- Carousel -->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -290,16 +279,16 @@
 
     <div id="footer">
         <div id="left">
-            <div style="font-family: Broadway; font-size: 50px; color: rgb(25, 143, 70);margin-bottom: 0px;">B-BOOK</div>
-            <div style="font-family: Broadway;font-size: 20px;color: rgb(25, 143, 70);">ĐỌC TRUYỆN THEO CÁCH CỦA BẠN!</div>
+            <div style="font-family: Broadway; font-size: 50px; color: rgb(27, 154, 76);margin-bottom: 0px;">B-BOOK</div>
+            <div style="font-family: Broadway;font-size: 20px;color: rgb(27, 154, 76);">ĐỌC TRUYỆN THEO CÁCH CỦA BẠN!</div>
             <div>
                 <div style="margin-top: 10px;font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Liên hệ với: </div>
                 <div style="margin-top: 8px;font-size: 17px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                    <span class="glyphicon glyphicon-phone">0375831246</span> &nbsp&nbsp&nbsp&nbsp&nbsp <span class="glyphicon glyphicon-fire">baodn.23itb@vku.udn.vn</span>
+                    <span class="glyphicon glyphicon-phone">0375831246</span> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="glyphicon glyphicon-fire">baodn.23itb@vku.udn.vn</span>
                 </div>
             </div>
         </div>
-
         <div id="right">
             <table>
                 <tr>
@@ -333,19 +322,20 @@
                     <td class="h"></td>
                 </tr>
             </table>    
-        </div>     
-    </div> 
+        </div>
+    </div>
     <div id="duoi">
-        <div style="margin-left: 70px;">
-            <font style="font-family: Broadway; color:rgb(25, 143, 70) ;font-size: 25px;">B-BOOK</font> - Một trong những nền tảng đọc truyện trực tuyến tốt nhất Việt Nam! <br>
-            Trang web được phát triển bởi nhóm BHT-Team bao gồm 4 thành viên là Bảo, Hải, Tùng và Toàn.<br>
+        <div style="margin-left: 80px;">
+            <font style="font-family: Broadway; color:rgb(27, 154, 76) ;font-size: 25px;">B-BOOK</font> - Một trong những nền tảng đọc truyện trực tuyến tốt nhất Việt Nam! <br>
+            Trang web được phát triển bởi nhóm Alpha Team bao gồm 4 thành viên là Bảo, Hải, Tùng và Toàn.<br>
             Với mong muốn phát triển, trang web sẽ không ngừng đổi mới, cập nhật để mang đến cho người dùng trải nghiệm tốt nhất!<br>
             Có thể liên hệ trực tiếp tại Phòng 521 dãy 2 KTX Trường Đại học Công nghệ thông tin và Truyền thông Việt Hàn. 
         </div>    
-    </div>   
+    </div>
     <div id="duoi2">
         Điều khoản &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Chính sách bảo mật &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Cookies &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Copyright &#169; 2024. All rights reserved
     </div> 
+
     <script>
         const scrollContainer = document.getElementById('scroll-container');
         const leftArrow = document.getElementById('left-arrow');
@@ -392,5 +382,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>
